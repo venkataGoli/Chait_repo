@@ -1,5 +1,4 @@
 #!/bin/bash
-set -b
 
 GIT_BRANCH=$1
 if [ $GIT_BRANCH ]; then
