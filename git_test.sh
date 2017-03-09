@@ -9,11 +9,11 @@ if [ $GIT_BRANCH ]; then
     git checkout master
     echo "===== Updating master ======="
     git pull
-    echo "===== Submodule update on develop ======="
+    echo "===== Submodule update on master ======="
     git submodule update
-    echo "===== Mergin $GIT_BRANCH to develop ======="
+    echo "===== Mergin $GIT_BRANCH to master ======="
     git merge $GIT_BRANCH
-    echo "===== Pushing develop ======="
+    echo "===== Pushing master ======="
     git push origin master
 
     # Merging to Develop
