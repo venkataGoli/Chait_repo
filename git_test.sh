@@ -18,7 +18,7 @@ if [ $GIT_BRANCH ]; then
 
     # Merging to Develop
     echo " ============ Merging to Branch $GIT_BRANCH to Develop ============ " 
-     echo "===== Checking out develop ======="
+    echo "===== Checking out develop ======="
     git checkout develop
     echo "===== Updating develop ======="
     git pull
